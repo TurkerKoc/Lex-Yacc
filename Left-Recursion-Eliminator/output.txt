@@ -1,0 +1,23 @@
+<F> -> b <F2>
+<F2> -> epsilon
+<F2> -> s a <F2>
+<A> -> <B> b a <C> <A> d <A2>
+<A2> -> epsilon
+<A2> -> a <B> b <A> c d <A2>
+<D> -> a 
+<X> -> b 
+<E> -> <T> <E2>
+<E2> -> epsilon
+<E2> -> t <T> <E2>
+<X> -> b 
+<B> -> <T> <B2>
+<B> -> a <B2>
+<B2> -> epsilon
+<B2> -> t <T> <B2>
+<C> -> <T> <C2>
+<C2> -> epsilon
+<C2> -> t <T> <C2>
+<S> -> c <S2>
+<S2> -> epsilon
+<S2> -> a <S2>
+<S2> -> b <S2>
